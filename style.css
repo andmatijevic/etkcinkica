@@ -1,0 +1,68 @@
+body {
+	background-color: #F7EFE5;
+	font-family: 'Amatic SC';
+	font-size: 14px;
+
+	text-align: left;
+}
+
+p {
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+
+.heading {
+	position: relative;
+	width: 100%;
+}
+
+.content img {
+	display: block;
+    margin: 0 auto;
+	width: 65%;
+}
+
+.rating {
+	text-align: center;
+}
+
+input[type=text], select {
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+	font-family: 'Amatic SC';
+	font-size: 2em;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #F7EFE5;
+    border: none;
+    cursor:pointer;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
